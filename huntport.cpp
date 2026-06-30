@@ -1,5 +1,5 @@
 // ============================================================
-//  C++ Fast Port Scanner v3.0  —  nmap-style
+//  C++ Fast Port Scanner v3.0  — 
 //  Features: TCP/UDP scan, banner grab, OS hint, SSL info,
 //  HTTP title, version detection, JSON/TXT/HTML output,
 //  CIDR range, ping sweep, stealth mode, CVE hints
