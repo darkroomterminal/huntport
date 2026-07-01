@@ -42,7 +42,7 @@ A high-performance multi-threaded port scanner for Windows written in C++. The p
 ### MinGW
 
 ```bash
-g++ scanner.cpp -o scanner.exe -lws2_32 -liphlpapi -std=c++17
+g++ huntport.cpp -o huntport.exe -lws2_32 -liphlpapi -std=c++17
 ```
 
 ## Usage
@@ -50,33 +50,33 @@ g++ scanner.cpp -o scanner.exe -lws2_32 -liphlpapi -std=c++17
 Basic scan:
 
 ```bash
-scanner.exe example.com
+huntport.exe example.com
 ```
 
 Scan a port range:
 
 ```bash
-scanner.exe example.com 1 1000
+huntport.exe example.com 1 1000
 ```
 
 Common ports scan:
 
 ```bash
-scanner.exe example.com --top-ports
+huntport.exe example.com --top-ports
 ```
 
 Enable verbose output:
 
 ```bash
-scanner.exe example.com --verbose
+huntport.exe example.com --verbose
 ```
 
 Save results:
 
 ```bash
-scanner.exe example.com --json
-scanner.exe example.com --html
-scanner.exe example.com --txt
+huntport.exe example.com --json
+huntport.exe example.com --html
+huntport.exe example.com --txt
 ```
 
 ## Output
